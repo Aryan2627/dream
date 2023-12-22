@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url('kmmm.jpg'); background-size: cover;"></body>
+ <form method="post" action="connect.php">
+    <div class="main-block">
+        <h1>Registration</h1>
+        <form action="/">
+          <hr>
+          <div class="account-type">
+            <input type="radio" value="none" id="radioOne" name="account" checked/>
+            <label for="radioOne" class="radio">Personal</label>
+            <input type="radio" value="none" id="radioTwo" name="account" />
+            <label for="radioTwo" class="radio">Office</label>
+            <input type="radio" value="none" id="radioThree" name="account"/>
+            <label for="radioThree" class="radio">College</label>
+          </div>
+          <hr>
+          <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+          <input type="text" name="name" id="name" placeholder="Email" required/>
+          <label id="icon" for="name"><i class="fas fa-user"></i></label>
+          <input type="text" name="name" id="name" placeholder="Name" required/>
+          <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+          <input type="password" name="name" id="name" placeholder="Password" required/>
+          <hr>
+          <div class="gender">
+            <input type="radio" value="none" id="male" name="gender" checked/>
+            <label for="male" class="radio">Male</label>
+            <input type="radio" value="none" id="female" name="gender" />
+            <label for="female" class="radio">Female</label>
+            <input type="radio" value="none" id="other" name="gender" />
+            <label for="other" class="radio">Other</label>
+          </div>
+          <hr>
+          <div class="butn-block">
+            <p>By clicking Register, you agree on our <a href="agree.html">Privacy Policy for gifticol</a>.</p>
+            <button type="submit" href="/">Submit</button>
+          </div>
+ </form>
+</body>
+</style>
+</html>
